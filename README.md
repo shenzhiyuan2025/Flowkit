@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="docs/assets/flowkit-banner.svg" alt="FlowKit" width="100%" />
-</p>
+
 
 <h1 align="center">FlowKit</h1>
 

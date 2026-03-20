@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@flowkit/protocol": "workspace:*",
-    "@flowkit/react": "workspace:*",
-    "@flowkit/widgets": "workspace:*",
+    "@flowkit/protocol": "file:../../packages/protocol",
+    "@flowkit/react": "file:../../packages/react",
+    "@flowkit/widgets": "file:../../packages/widgets",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

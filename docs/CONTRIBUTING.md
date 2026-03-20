@@ -27,33 +27,30 @@ Open issues with your use cases, widget ideas, or protocol suggestions.
 
 ### Prerequisites
 - Node.js 20+
-- pnpm 9+
+- npm 10+
 - Python 3.11+ (for Python SDK)
 
 ### Getting Started
 
 ```bash
 # Clone the repository
-git clone https://github.com/user/flowkit.git
+git clone https://github.com/shenzhiyuan/flowkit.git
 cd flowkit
 
 # Install dependencies
-pnpm install
+npm install
 
 # Start development
-pnpm dev          # Starts all packages in dev mode
-pnpm dev:demo     # Starts demo app only
-pnpm dev:widgets  # Starts widget storybook
+npm run dev
 
 # Run tests
-pnpm test
+npm run test
 
 # Build all packages
-pnpm build
+npm run build
 
-# Lint & format
-pnpm lint
-pnpm format
+# Lint
+npm run lint
 ```
 
 ---
@@ -63,10 +60,10 @@ pnpm format
 ### Step 1: Scaffold
 
 ```bash
-pnpm create-widget my-widget
+npm run dev
 ```
 
-This creates:
+Widget implementation convention:
 ```
 packages/widgets/src/my-widget/
 ├── MyWidget.tsx        # React component
@@ -114,8 +111,7 @@ Edit `schema.json` — this is critical for LLM compatibility:
 ### Step 4: Test
 
 ```bash
-pnpm test packages/widgets/src/my-widget
-pnpm storybook  # Visual testing
+npm run test
 ```
 
 ### Step 5: Submit PR
@@ -149,7 +145,7 @@ git push origin widget/my-widget
 1. Fork the repository
 2. Create a feature branch from `main`
 3. Make your changes with tests
-4. Ensure `pnpm test` and `pnpm lint` pass
+4. Ensure `npm run test` and `npm run lint` pass
 5. Submit PR with clear description
 6. Respond to review feedback
 7. Once approved, maintainer will merge
@@ -170,5 +166,4 @@ By contributing, you agree that your contributions will be licensed under the Ap
 
 ## Questions?
 
-- 💬 [Discord](https://discord.gg/flowkit) — Fastest way to get help
-- 🐛 [GitHub Issues](https://github.com/user/flowkit/issues) — Bug reports and feature requests
+- 🐛 [GitHub Issues](https://github.com/shenzhiyuan/flowkit/issues) — Bug reports and feature requests

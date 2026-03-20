@@ -1,12 +1,11 @@
 
-
 <h1 align="center">FlowKit</h1>
 
 <p align="center">
   <strong>Agent's Widget-in-Chat Protocol & Open Ecosystem</strong><br/>
   Let every Agent speak GUI.
 </p>
-
+<img width="270" height="276" alt="image" src="https://github.com/user-attachments/assets/c9a569da-89df-4b77-8920-55ada936d6b9" align="center"/>
 <p align="center">
   <a href="#quick-start">Quick Start</a> ·
   <a href="docs/PROTOCOL.md">Protocol Spec</a> ·
@@ -57,6 +56,7 @@ Today, 99% of AI agents communicate through pure text. But text is a bottleneck 
         │ (open market)│  │  suggestions)   │
         └──────────────┘  └─────────────────┘
 ```
+<img width="2840" height="6910" alt="image" src="https://github.com/user-attachments/assets/4b754ed7-4c44-4e89-aa21-071d68a32edf" />
 
 ## Why FlowKit?
 
@@ -81,21 +81,15 @@ Today, 99% of AI agents communicate through pure text. But text is a bottleneck 
 ---
 
 ## Demo
+![Uploading image.png…]()
 
-<p align="center">
-  <img src="docs/assets/demo-legal.png" alt="Legal Consultation Demo" width="32%" />
-  <img src="docs/assets/demo-ecommerce.png" alt="E-commerce Demo" width="32%" />
-  <img src="docs/assets/demo-travel.png" alt="Travel Planning Demo" width="32%" />
-</p>
 
-**Four scenario demos included:**
+
+**Ten scenario demos included:**
 
 | Scenario | Widgets Used | Description |
 |----------|-------------|-------------|
-| ⚖️ Legal Consultation | evidence-list, gauge, emotion, timeline | AI analyzes case, shows evidence strength, win probability, action roadmap |
-| 🛍️ E-commerce | product-carousel, chart, quick-actions | Browse products, compare specs, add to cart — all in chat |
-| ✈️ Travel & Transit | map-route, emotion, quick-actions | Say "get a taxi to airport" → map + route + cost + one-tap ride |
-| 📊 Data Analytics | metrics, chart, quick-actions | "Show me sales data" → KPI cards + trend chart + drill-down buttons |
+
 
 > 🚀 **Try the live demo**: `npx create-flowkit-app my-demo && cd my-demo && npm run dev`
 

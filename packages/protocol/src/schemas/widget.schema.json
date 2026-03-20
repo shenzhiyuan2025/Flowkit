@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["type", "data"],
+  "properties": {
+    "id": { "type": "string" },
+    "type": {
+      "type": "string",
+      "pattern": "^(@?[a-zA-Z0-9_-]+)\\/[a-zA-Z0-9_-]+$"
+    },
+    "data": { "type": "object" },
+    "options": { "type": "object" },
+    "actions": { "type": "object" },
+    "fallback": { "type": "string" },
+    "trust": { "type": "string", "enum": ["L1", "L2"] },
+    "remove": { "type": "boolean" }
+  },
+  "additionalProperties": false
+}

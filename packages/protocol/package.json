@@ -1,0 +1,24 @@
+{
+  "name": "@flowkit/protocol",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/schemas"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm",
+    "test": "vitest run",
+    "lint": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}
